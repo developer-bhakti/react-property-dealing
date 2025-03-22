@@ -1,22 +1,27 @@
-import React from 'react'
-import Navbar from './Navbar'
-import home from "../assets/home.png"
+import React from "react";
+import Navbar from "./Navbar";
+import home from "../assets/home.png";
 
 const Home = () => {
   return (
-    <div className=''>
-        <Navbar/>
-        <div className='mt-10 py-10 px-40 mr-90'>
-            <img className='' src={home} alt="" />
-            <div className='text-right bg-white -mt-10 py-4 px-3 '>
-            <p className=' flex items-center justify-center font-medium text-black text-xl mb-2'>Get personalised home interiors</p>
-            <span className='flex flex-col font-bold text-3xl mb-4'>in just 50 days</span>
-            <button className='bg-[#4B2A63] text-white'>SPEAK WITH A ONLINE CONSULTANT</button>
-        </div>
-        </div>
-        
+    <div className="flex justify-start items-center w-full mt-12">
+      <div className="">
+        <img className="w-[1090px] h-[613px]" src={home} alt="" />
+      </div>
+
+      <div className="text-center bg-white/70 py-20 px-20 z-10 -ml-36 ">
+        <p className="font-medium text-4xl mb-2">
+          Get personalised home interiors
+        </p>
+        <span className="font-semibold text-5xl text-[#241330]">
+          in just 50 days
+        </span>
+        <button className="bg-[#4B2A63] text-white font-semibold text-3xl mt-9 py-4 px-6 rounded-sm">
+          SPEAK WITH A ONLINE CONSULTANT
+        </button>
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default Home;
