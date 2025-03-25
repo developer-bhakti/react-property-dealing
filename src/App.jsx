@@ -15,6 +15,7 @@ const App = () => {
       <Landliders />
       <About />
       <Rooms />
+      <MyProject />
       {/* <Blog /> */}
     </div>
   );
