@@ -5,7 +5,8 @@ import blog3 from "../assets/blog3.png";
 
 const Blog = () => {
   return (
-    <div className="w-[1099.79px] h-[333px] rounded-[10px] flex gap-5 mt-16">
+    <div className="">
+       <h1 className="mb-10">blog</h1>
       <div className="">
         <img src={blog1} alt="blog1" />
         <span className="font-medium text-2xl items-centerjustify-center mb-5">
@@ -59,8 +60,8 @@ const Blog = () => {
         </div>
       </div>
       <div className="items-center flex mt-30">
-      <button className="w-[270px] h-[80px] bg-[#4B2A63] text-white font-semibold text-2xl">View all</button>
       </div>
+      <button className="w-[270px] h-[80px] bg-[#4B2A63] text-white font-semibold text-2xl">View all</button>
     </div>
   );
 };
