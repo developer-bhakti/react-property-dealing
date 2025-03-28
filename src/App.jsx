@@ -6,6 +6,7 @@ import Rooms from "./components/Rooms";
 import Landliders from "./components/Landliders";
 import MyProject from "./components/MyProject";
 import Blog from "./components/Blog";
+import InteriorProducts from "./components/InteriorProducts";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Rooms />
       <MyProject />
       <Blog />
+      <InteriorProducts />
     </div>
   );
 };
