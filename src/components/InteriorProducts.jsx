@@ -10,27 +10,47 @@ const InteriorProducts = () => {
   return (
     <div className="">
       <div className="flex items-center justify-center text-center mt-16">
-        <h1 className="font-medium text-4xl text-[#241330]">Our Interior Design Products</h1>
+        <h1 className="font-medium text-4xl text-[#241330]">
+          Our Interior Design Products
+        </h1>
       </div>
-      <div className="mt-10 ">
-         <img className="w-[313px] h-[331px] "  src={product1} alt="" />
+      <div className="my-10 columns-1 sm:columns-2 lg:columns-4 mx-7">
+        <div className="mb-4 break-inside-avoid">
+          <img
+            className="w-full h-[420px] object-cover "
+            src={product1}
+            alt=""
+          />
+        </div>
+        <div className="mb-4 break-inside-avoid">
+          <img className="w-full h-[420px]" src={product2} alt="" />
+        </div>
+        <div className="mb-4 break-inside-avoid">
+          <img className="w-full h-[850px]" src={product3} alt="" />
+        </div>
+        <div className="mb-4 break-inside-avoid">
+          <img className="w-full h-[420px]" src={product4} alt="" />
+        </div>
+        <div className="mb-4 break-inside-avoid">
+          <img className="w-full h-[420px]" src={product5} alt="" />
+        </div>
+        <div className="mb-4 break-inside-avoid ">
+          <img className="w-full h-[850px]" src={product6} alt="" />
+        </div>
       </div>
-      <div className="">
-        <img className="w-[318px] h-[330px]" src={product2} alt="" />
+      <div className="flex flex-col justify-center items-center text-center my-10">
+        <p className="font-normal text-[18px] text-black">
+          Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit ut aliquam, <br />
+          purus sit amet luctus venenatis, lectus magna fringilla urna,
+          <br />
+          porttitor rhoncus dolor purus non enim
+        </p>
+        <button className="bg-[#4B2A63] text-white font-semibold text-2xl w-[270px] h-[80px] mt-10">
+          View all
+        </button>
       </div>
-      <div className="flex w-full object-cover">
-        <img className="w-[452px] h-[676px]" src={product3} alt="" />
-      </div>
-      <div className="">
-        <img className="w-[330px] h-[331px]" src={product4} alt="" />
-      </div>
-      <div className="">
-        <img className="w-[330px] h-[330px]" src={product5} alt="" />
-      </div>
-      <div className="">
-        <img className="w-[451px] h-[676px]" src={product6} alt="" />
-      </div>
-      </div>
+    </div>
   );
 };
 

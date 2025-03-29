@@ -7,6 +7,8 @@ import Landliders from "./components/Landliders";
 import MyProject from "./components/MyProject";
 import Blog from "./components/Blog";
 import InteriorProducts from "./components/InteriorProducts";
+import Customer from "./components/Customer";
+import Dream from "./components/Dream";
 
 const App = () => {
   return (
@@ -19,6 +21,8 @@ const App = () => {
       <MyProject />
       <Blog />
       <InteriorProducts />
+      <Customer />
+      <Dream />
     </div>
   );
 };
